@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first website for portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+      <a href="#" class="logo"><h1>beats by somil</h1></a>
+      <nav>
+        <ul class="navcontent">
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Grab</a></li>
+            <li><a href="#" class="login" id="button">login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="first-main">
+      <section class="left-hero-section">
+        <img src="images/clipart3441316-removebg-preview.png" alt="sound images">
+      </section>
+      <section class="right-hero-section">
+        <h1>buy 1 get 1 free</h1>
+        <a href="#">free trial</a>
+        <a href="#" id="lease">grab a lease</a>
+      </section>
+      </div>
+      <section class="second-hero-section">
+        <div class="song-controls">
+          <img src="images/1683826361693.jpg" alt="banner" id="controlbar-img">
+          <div class="bar">
+          <input type="range" name="range" id="progressbar" value="0" min="0" max="100">
+          </div>
+          <div class="control-icons">
+            <a href="#"><ion-icon name="shuffle-outline"></ion-icon></a>
+            <a href="#" class="backnforth"><ion-icon name="play-skip-back-outline"></ion-icon></a> 
+            <!-- <ion-icon name="play-circle-outline" id="playbtn"></ion-icon> -->
+            <i class="fa-regular fa-circle-play" id="playbtn"></i>
+            <a href="#" class="backnforth"><ion-icon name="play-skip-forward-outline"></ion-icon></a>
+            <a href="#"><ion-icon name="repeat"></ion-icon></a>
+          </div>
+        </div>
+        <div class="beats-section">
+        <!-- <audio controls>
+          <source src="audio files/25 th beat stems 128bpm aminor_Master.wav" type="audio/wav">
+        </audio> -->
+        <table>
+          <tr>
+            <th></th>
+            <th>title</th>
+            <th>time</th>
+            <th>bpm</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td class="img-clmn songItemPlay"><img src="images/reckless.jpg" alt="reckless-img"></td>
+            <td class="song-name songItemPlay" id="0">reckless</td>
+            <td class="duration">3:27</td>
+            <td class="bpm">128</td>
+            <td class="dwnld"><a href="#"><ion-icon name="download-outline"></ion-icon></a></td>
+            <td class="share"><a href="#"><ion-icon name="share-social-outline"></ion-icon></a></td>
+            <td class="shop"><div><a href="#"><ion-icon name="bag-add-outline"></ion-icon>499₹</div></a></td>
+          </tr>
+          <tr>
+            <td class="img-clmn songItemPlay"><img src="images/scopebda (2).jpg" alt="scopebda-img"></td>
+            <td class="song-name songItemPlay" id="1">scope bda</td>
+            <td class="duration">3:43</td>
+            <td class="bpm">120</td>
+            <td class="dwnld"><a href="#"><ion-icon name="download-outline"></ion-icon></a></td>
+            <td class="share"><a href="#"><ion-icon name="share-social-outline"></ion-icon></a></td>
+            <td class="shop"><div><a href="#"><ion-icon name="bag-add-outline"></ion-icon>499₹</div></a></td>
+          </tr>
+          <tr>
+            <td class="img-clmn songItemPlay"><img src="images/1683826361693.jpg" alt="narbhakshi-img"></td>
+            <td class="song-name songItemPlay" id="2">narbhakshi</td>
+            <td class="duration">3:20</td>
+            <td class="bpm">119</td>
+            <td class="dwnld"><a href="#"><ion-icon name="download-outline"></ion-icon></a></td>
+            <td class="share"><a href="#"><ion-icon name="share-social-outline"></ion-icon></a></td>
+            <td class="shop"><div><a href="#"><ion-icon name="bag-add-outline"></ion-icon>499₹</div></a></td>
+          </tr>
+          <tr>
+            <td class="img-clmn songItemPlay"><img src="images/munkodhamki.jpg" alt="mankodhamki-img"></td>
+            <td class="song-name songItemPlay" id="3">man ko dhamki</td>
+            <td class="duration">3:48</td>
+            <td class="bpm">130</td>
+            <td class="dwnld"><a href="#"><ion-icon name="download-outline"></ion-icon></a></td>
+            <td class="share"><a href="#"><ion-icon name="share-social-outline"></ion-icon></a></td>
+            <td class="shop"><div><a href="#"><ion-icon name="bag-add-outline"></ion-icon>499₹</div></a></td>
+          </tr>
+          <tr>
+            <td class="img-clmn songItemPlay"><img src="images/freeverse.jpg" alt="freeverse-img"></td>
+            <td class="song-name songItemPlay" id="4">freeverse</td>
+            <td class="duration">2:30</td>
+            <td class="bpm">140</td>
+            <td class="dwnld"><a href="#"><ion-icon name="download-outline"></ion-icon></a></td>
+            <td class="share"><a href="#"><ion-icon name="share-social-outline"></ion-icon></a></td>
+            <td class="shop"><div><a href="#"><ion-icon name="bag-add-outline"></ion-icon>499₹</div></a></td>
+          </tr>
+          <tr>
+            <td class="img-clmn songItemPlay"><img src="images/1683831874313.jpg" alt="shy-img"></td>
+            <td class="song-name songItemPlay" id="5">shy</td>
+            <td class="duration">3:08</td>
+            <td class="bpm">120</td>
+            <td class="dwnld"><a href="#"><ion-icon name="download-outline"></ion-icon></a></td>
+            <td class="share"><a href="#"><ion-icon name="share-social-outline"></ion-icon></a></td>
+            <td class="shop"><div><a href="#"><ion-icon name="bag-add-outline"></ion-icon>499₹</div></a></td>
+          </tr>
+          <tr>
+            <td class="img-clmn songItemPlay"><img src="images/1683831874324.jpg" alt="kla-img"></td>
+            <td class="song-name songItemPlay" id="6">kala</td>
+            <td class="duration">2:51</td>
+            <td class="bpm">140</td>
+            <td class="dwnld"><a href="#"><ion-icon name="download-outline"></ion-icon></a></td>
+            <td class="share"><a href="#"><ion-icon name="share-social-outline"></ion-icon></a></td>
+            <td class="shop"><div><a href="#"><ion-icon name="bag-add-outline"></ion-icon>499₹</div></a></td>
+          </tr>
+          <tr>
+            <td class="img-clmn songItemPlay"><img src="images/1683831874335.jpg" alt="grahak-img"></td>
+            <td class="song-name songItemPlay" id="7">grahak</td>
+            <td class="duration">3:40</td>
+            <td class="bpm">134</td>
+            <td class="dwnld"><a href="#"><ion-icon name="download-outline"></ion-icon></a></td>
+            <td class="share"><a href="#"><ion-icon name="share-social-outline"></ion-icon></a></td>
+            <td class="shop"><div><a href="#"><ion-icon name="bag-add-outline"></ion-icon>499₹</div></a></td>
+          </tr>
+          <tr>
+            <td class="img-clmn songItemPlay"><img src="images/1683831874347.jpg" alt="koste-img"></td>
+            <td class="song-name songItemPlay" id="8">koste</td>
+            <td class="duration">3:15</td>
+            <td class="bpm">124</td>
+            <td class="dwnld"><a href="#"><ion-icon name="download-outline"></ion-icon></a></td>
+            <td class="share"><a href="#"><ion-icon name="share-social-outline"></ion-icon></a></td>
+            <td class="shop"><div><a href="#"><ion-icon name="bag-add-outline"></ion-icon>499₹</div></a></td>
+          </tr>
+        </table>
+        </div>
+      </section>
+      <div class="popup-form">
+        <div class="login-form">
+          <div class="closetab">
+            <ion-icon name="close-outline" class=".close-tab"></ion-icon>
+          </div>
+          <h1>Login</h1>
+          <form method="post">
+            <div class="text-field">
+              <input type="text" required>
+              <span></span>
+              <label>Username</label>
+            </div>
+            <div class="text-field">
+              <input type="password" required>
+              <span></span>
+              <label>Password</label>
+            </div>
+            <div class="pass">Forgon password?</div>
+            <input type="submit" value="Login">
+            <div class="signuplink">
+              Not a member?<a href="#">SignUp</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer>
+        <div class="logo-footer">
+          <h1>beats by somil</h1>
+        </div>
+        <div class="first-column">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">services</a></li>
+          </ul>
+        </div>
+        <div class="second-column">
+          <ul>
+            <li><a href="#">memberships</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contacts</a></li>
+          </ul>
+        </div>
+        <div class="third-column">
+          <ul>
+            <li><a href="#">licensing info</a></li>
+            <li><a href="#">terms of use</a></li>
+            <li><a href="#">privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="fourth-column">
+          <ul>
+            <li><a href="https://www.youtube.com/channel/UCdaftKQ3BCE0uu13nCVPcEA" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/som__ill/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="https://soundcloud.com/somil-290648821" target="_blank"><ion-icon name="logo-soundcloud"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          </ul>
+        </div>
+      </footer>
+      <!-- <img src="audio files/23 beat 140bpm d#major beat_Master.wav" alt=""> -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://kit.fontawesome.com/4dacf4f26b.js" crossorigin="anonymous"></script>
+      <script src="index.js"></script>
+    </main>
+</body>
+</html>

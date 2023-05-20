@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+.logo h1{
+    font-size: 2rem;
+    color: #58308a;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+.navcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+    background-color: #eeeaf3;
+    /* position: fixed;
+    width: 100vw;
+    top: 0; */
+} 
+
+.navcontent li{
+    font-weight: bold;
+}
+
+.navcontent .login{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid black ;
+    color: black;
+    transition: 0.5s all;
+}
+
+.navcontent .login:hover,
+.navcontent .login:active{
+    background-color: #000000;
+    color: white;
+}
+
+.first-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem 0;
+    margin-bottom: 4rem;
+    background-color: #8a6ead;
+    
+}
+
+/* .left-hero-section{
+    padding-left: 0rem;
+} */
+
+.right-hero-section{
+    line-height: 4rem;
+}
+
+.right-hero-section h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.right-hero-section a{
+    background-color: black;
+    padding: 1.2rem 3rem;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    border: 1px solid black;
+    transition: 0.5s all ease;
+    border-radius: 4px;
+}
+
+.right-hero-section a:hover,
+.right-hero-section a:active{
+    background-color: #8a6ead;
+    color: black;
+}
+
+#lease{
+    border: 1px solid black;
+    color: black;
+    background: none;
+    font-weight: 600;
+    transition: 0.5s all ease;
+}
+
+#lease:hover,
+#lease:active{
+    background-color: black;
+    color: white;
+}
+
+.song-controls{
+  position: fixed;
+  height: 4.5rem;
+  width: 100vw;
+  z-index: 500;
+  background-color: #191919;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 7.8px;
+}
+
+#controlbar-img{
+  width: 4rem;
+  height: 4.3rem;
+  display: inline;
+  position: absolute;
+  left: 0;
+}
+
+.bar{
+  width: 90%;
+}
+
+#progressbar{
+  width: 100%;
+  cursor: pointer;
+  z-index: 400;
+}
+
+input[type=range]:focus{
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+  width: 100%;
+  height: 3px;
+  animation: 0.2s;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb{
+  height: 6px;
+  margin-top: -6px;
+}
+
+.control-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+}
+
+
+.control-icons a{
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+
+#playbtn{
+  font-size: 2.6rem;
+  cursor: pointer;
+}
+
+.beats-section{
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table tr td  img{
+  width: 3rem;
+  height: 3.1rem;
+  cursor: pointer;
+}
+
+.img-clmn{
+  width: 1rem;
+  border-bottom: none;  
+}
+
+th{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+tr a{
+  color: black;
+}
+
+td, th{
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+th{
+    border-bottom: none;
+}
+
+.song-name{
+  width: 23rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.duration{
+  width: 7rem;
+  font-weight: 500;
+}
+
+.bpm{
+  width: 7rem;
+  font-weight: 500;
+}
+
+.dwnld{
+  width: 3rem;
+  /* border-bottom: none; */
+}
+
+.dwnld a ion-icon{
+  width: 2rem;
+  font-size: 3rem;
+}
+
+.share{
+  width: 3rem;
+  /* border-bottom: none; */
+}
+
+.share a ion-icon{
+  width: 2rem;
+  font-size: 3rem;
+}
+
+.shop{
+  width: 5rem;
+  border-bottom: none;
+}
+
+.shop div{
+  padding: 0.6rem 0.8rem;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.shop a{
+  font-size: 1rem;
+}
+
+.shop a ion-icon{
+  font-size: 1rem;
+}
+
+/* .beats-section audio{
+    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+} */
+
+.popup-form{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.login-form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem; 
+  background-color: white;
+  border-radius: 10px;
+}
+
+.login-form h1{
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid silver;
+}
+
+.login-form form{
+  padding: 0 3rem;
+  box-sizing: border-box;
+}
+
+form .text-field{
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 2rem 0;
+}
+
+.text-field input{
+  width: 100%;
+  padding: 0 5px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.text-field label{
+  position: absolute;
+  top: 10%;
+  left: 5px;
+  color: #adadad;
+  transform: translatey(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.text-field span::before{
+  content: '';
+  position: absolute;
+  top: 1.2rem;
+  left: 0;
+  width: 0;
+  background-color: #2691d9;
+  height: 1px;
+  transition: .5s;
+}
+
+.text-field input:focus ~ label,
+.text-field input:valid ~ label{
+  top: -7px;
+  color: #2691d9;
+}
+
+.text-field input:focus ~ span::before,
+.text-field input:valid ~ span::before{
+  width: 100%;
+}
+
+.pass{
+  margin: -5px 0 20px 5px;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+
+.pass:hover{
+  text-decoration: underline;
+}
+
+input[type="submit"]{
+  width: 100%;
+  height: 2.5rem;
+  border: 1px solid;
+  background-color: #2691d9;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover{
+  border-color: #2691d9;
+  transition: .5s;
+}
+
+.signuplink{
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+
+.signuplink a{
+  color: #2691d9;
+  text-decoration: none;
+}
+
+.signuplink a:hover{
+  text-decoration: underline;
+}
+
+.login-form .closetab{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 3px 0 8px;
+  /* width: 30px;
+  height: 40px; */
+  width: 30px;
+  /* background-color: #2691d9; */
+  cursor: pointer;
+}
+
+.login-form .closetab .close-tab ion-icon{
+  position: relative; 
+  top: 0;
+  right: 0; 
+  padding: 2px 20px 0 0; 
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: self-start;
+  background-color: #333333;
+  color: white;
+  padding: 4rem 4rem;
+}
+
+footer div ul{
+  line-height: 1.8rem;
+}
+
+footer div ul li a{
+  color: white;
+  text-transform: capitalize;
+}
+
+.fourth-column ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fourth-column ul li a ion-icon{
+  border: thin solid white;
+  border-radius: 50%;
+  padding: 7px 7px;
+}

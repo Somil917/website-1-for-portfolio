@@ -464,3 +464,11 @@ footer div ul li a{
   border-radius: 50%;
   padding: 7px 7px;
 }
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+  .beats-section table{
+    width: 1px;
+  }
+}
